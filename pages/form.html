@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand px-5" href="/index.html"><img src="/src/house-fill.svg"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/form.html">Formulários</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section class="row  px-5 text-light text-center bg-secondary">
+        <div class="form col col-4 my-5 border border-dark" style="margin: auto;">
+            <h1>Formulário</h1>
+            <form action="" method="GET">
+                <label for="" class="">Dados pessoais</label><br>
+                <Label for="id_nome">Nome</Label><br>
+                <input type="text" name="var"><br>
+                <Label for="id_nome">Data</Label><br>
+                <input type="date">
+
+            <fieldset>
+                 <label for="id_email">Email</label><br>
+                 <input type="text"><br>
+                 <label for="id_telefone">Número</label><br>
+                 <input type="number">
+            </fieldset>
+            <legend>
+                  <label for="">Dados academicos</label>
+                  <select name="curso">
+                        <option value="1">GCO</option>
+                        <option value="2">MKT</option>
+                        <option value="3">SI</option>
+                        <option value="4">CD</option>
+                    
+                  </select>
+                  <fieldset>
+                    <label for="">Trabalha</label>
+                    <input type="checkbox"><br> 
+                    <label for="">Local de trabalho</label>
+                    <input type="text">
+                    <label for="">Descreva a sua experiencia</label>
+                    <input type="text-area">
+                </fieldset>
+                  <input class="button my-5" type="submit">
+            </legend>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

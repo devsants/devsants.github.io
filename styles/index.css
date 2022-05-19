@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#answer {
+    display: none;
+}
+
+#question:hover #answer{
+    display: flex;
+    animation: fadeIn 1s;
+}
+
+#question, #group, #intro {
+    transition: 0.5s;
+}
+
+
+#question:hover{
+    transform: scale(1.1);
+}
+
+#group:hover, #intro:hover{
+    transform: scale(1.05);
+}
+
+#form {
+    margin: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+}
