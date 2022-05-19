@@ -24,9 +24,6 @@ html {
     transform: scale(1.05);
 }
 
-#form {
-    margin: auto;
-}
 
 @keyframes fadeIn {
     0% {
