@@ -9,6 +9,7 @@ html {
 #question:hover #answer{
     display: flex;
     animation: fadeIn 1s;
+    box-shadow: 3px 3px gray;
 }
 
 #question, #group, #intro {
